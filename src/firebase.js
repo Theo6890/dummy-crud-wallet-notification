@@ -1,8 +1,8 @@
-import { initializeApp } from "firebase/app"
-import { getFirestore } from 'firebase/firestore'
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
 
 // Initialize Firebase and Firestore
-const app = initializeApp(firebaseConfig)
-const db = getFirestore(app)
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
 
-export {db}
+export { db };
