@@ -1,9 +1,9 @@
 import "./taskManager.css";
-import Task from "./Task";
+import Task from "./../Tasks/Task";
 import { useState, useEffect } from "react";
 import { collection, query, orderBy, onSnapshot } from "firebase/firestore";
-import { db } from "./firebase";
-import AddTask from "./AddTask";
+import { db } from "../../firebase";
+import AddTask from "./../Tasks/Add/AddTask";
 
 function TaskManager() {
   const [openAddModal, setOpenAddModal] = useState(false);

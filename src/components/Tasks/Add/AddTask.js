@@ -1,7 +1,7 @@
-import Modal from "./Modal"
+import Modal from "../../Modal/Modal"
 import {useState} from 'react'
 import './addTask.css'
-import {db} from './firebase'
+import {db} from '../../../firebase'
 import { doc, setDoc, Timestamp } from "firebase/firestore";
 
 function AddTask({onClose, open}) {
